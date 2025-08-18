@@ -45,7 +45,7 @@ class Personagem {
     }
     curar() {
         if (this.vida < 100) {
-            return `Vida do Personagem ${this.vida = this.vida + 30}`;
+            return `Vida do Personagem ${this.vida = this.vida + 10}`;
         }
         else {
             console.log("Não pode curar mais");
