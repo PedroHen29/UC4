@@ -7,6 +7,6 @@ export class Owl extends Animal{
     }
 
     fly():void{
-        console.log("The Owl is flying")
+        console.log(`${this.name} is flying`)
     }
 }
