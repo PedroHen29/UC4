@@ -7,8 +7,9 @@ class ContaPoupanca extends ContaBancaria_1.ContaBancaria {
         super(saldo);
     }
     aplicarJuros() {
-        this.atualizarSaldo(10);
-        console.log(`seu saldo é de ${this.saldo * 0.5}`);
+        let juros = this.saldo * 0.02;
+        this.atualizarSaldo(juros);
+        console.log(`seu saldo é de ${this.saldo}`);
     }
 }
 exports.ContaPoupanca = ContaPoupanca;
