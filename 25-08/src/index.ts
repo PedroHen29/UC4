@@ -1,8 +1,8 @@
-import chalk from "chalk";
 import { Numero } from "./Numero";
+import chalk from 'chalk';
 import * as readline from 'readline-sync';
 const numero:Numero = new Numero()
-let numeroaleatorio = numero.numeroaleatorio()
+let numeroaleatorio = numero.numeroAleatorio()
 console.log(numeroaleatorio)
 let i = 0
 console.log(`
@@ -16,11 +16,11 @@ do{
     
     opcao = Number(readline.question("Digite seu palpite: "))
     if(opcao < numeroaleatorio){
-        console.log("    Muito baixo! ")
+        console.log(chalk.bold.redBright("    Muito baixo! "))
     }else if(opcao > numeroaleatorio){
-        console.log("    Muito alto! ")
+        console.log(chalk.bold.greenBright("    Muito alto! "))
     }else if(opcao === numeroaleatorio){
-        console.log(chalk.green(`Parabens! Você acertou o numero ${numeroaleatorio} em ${i} tentativa(s)!`))
+        console.log(chalk.bold.blueBright(`Parabens! Você acertou o numero ${numeroaleatorio} em ${i} tentativa(s)!)`))
     }
     
 
