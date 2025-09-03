@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import { Funcionario } from "./Funcionario";
 
 export class FuncionarioPJ extends Funcionario{
@@ -8,7 +9,7 @@ export class FuncionarioPJ extends Funcionario{
         
     }
     calcularSalario(): void {
-        this.salario*220
-        console.log(this.salario)
+        console.log(chalk.bold.greenBright(`O salario do funcionario PJ é de R$${this.salario*220}`))
+        
     }
 }

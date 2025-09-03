@@ -4,4 +4,5 @@ export abstract class UsuarioSistemas {
         this.nome = nome
     }
     abstract acessarPainel():void
+    
 }

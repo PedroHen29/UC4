@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const ClaAkimichi_1 = require("./ClaAkimichi");
+const ClaHyuuga_1 = require("./ClaHyuuga");
+const ClaNara_1 = require("./ClaNara");
+const ClaUchiha_1 = require("./ClaUchiha");
+const personagemUchiha = new ClaUchiha_1.ClaUchiha("Uchiha", "Sasuke");
+const personagemHyuuga = new ClaHyuuga_1.ClaHyuuga("Hyuuga", "Hiashi");
+const personagemNara = new ClaNara_1.ClaNara("Nara", "Shikamaru");
+const personagemAkimichi = new ClaAkimichi_1.ClaAkimichi("Akimichi", "Chouza");
+personagemUchiha.habilidadeEspecial();

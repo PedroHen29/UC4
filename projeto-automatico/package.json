@@ -1,5 +1,5 @@
 {
-  "name": "01-09",
+  "name": "projeto-automatico",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,10 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.2",
+    "@types/readline-sync": "^1.4.8",
+    "readline-sync": "^1.4.10",
     "typescript": "^5.9.2"
   },
   "devDependencies": {
-    "@types/chalk": "^2.2.4"
+    "@types/node": "^24.3.0"
   }
 }
