@@ -27,9 +27,11 @@ import { ClaAkimichi } from "./ClaAkimichi";
 import { ClaHyuuga } from "./ClaHyuuga";
 import { ClaNara } from "./ClaNara";
 import { ClaUchiha } from "./ClaUchiha";
+import { ClaInuzuka } from "./ClaInuzuka";
 const personagemUchiha:ClaUchiha = new ClaUchiha("Uchiha", "Sasuke")
 const personagemHyuuga:ClaHyuuga = new ClaHyuuga("Hyuuga", "Hiashi")
 const personagemNara:ClaNara = new ClaNara("Nara", "Shikamaru")
 const personagemAkimichi:ClaAkimichi = new ClaAkimichi("Akimichi", "Chouza")
+const personagemInuzuke:ClaInuzuka = new ClaInuzuka ("Inuzuka", "...")
 personagemUchiha.habilidadeEspecial()
 personagemHyuuga.ataqueEspecial()
