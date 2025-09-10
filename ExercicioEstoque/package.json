@@ -1,6 +1,7 @@
 {
   "name": "exercicioestoque",
   "version": "1.0.0",
+  
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +14,12 @@
   "license": "ISC",
   "dependencies": {
     "@types/readline-sync": "^1.4.8",
+    "chalk": "^5.6.2",
     "readline-sync": "^1.4.10",
     "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.4",
+    "@types/node": "^24.3.1"
   }
 }

@@ -5,12 +5,13 @@ export class Estoque<T> {
         this.itens.push(item)
     }
     listar(): T[]{
-        return this.itens
+     return this.itens
     }
-    reemover(indice:number){
+    remover(indice:number){
         return this.itens.splice(indice, 1)
     }
-    buscar(condicao: (item: T) => boolean):T[]{
-        
+    buscar(condicao: (item: T) => boolean): T[]{
+        return this.itens
     }
+    
 }
